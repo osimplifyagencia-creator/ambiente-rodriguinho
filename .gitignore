@@ -1,0 +1,22 @@
+# Chaves e senhas: nunca vão para o GitHub
+.env
+.env.*
+!.env.exemplo
+
+# Ajustes pessoais do Claude Code nesta máquina
+.claude/settings.local.json
+
+# Dependências e arquivos gerados
+node_modules/
+__pycache__/
+*.pyc
+*.log
+
+# Mídia pesada gerada na montagem de anúncios e conteúdo
+anuncios/**/render/
+conteudo/**/render/
+
+# Sistema operacional e editor
+.DS_Store
+Thumbs.db
+desktop.ini
