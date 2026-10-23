@@ -46,7 +46,7 @@ Este é o ambiente de trabalho do dono da empresa no Claude Code: gestão, anún
 4. **Navegador: sempre a extensão Navegador Osimplify, pelo `bsk`, no Chrome do dono** (skill `navegador-osimplify`). Nenhum outro navegador ou ferramenta de navegação. Se a extensão estiver desconectada, avise e espere. Senha, código do celular e captcha são do dono: ele digita.
 5. **Não prometa o que não dá para cumprir.** Nada de resultado garantido, depoimento inventado ou "antes e depois" sem prova real, em anúncio, texto ou script. Na dúvida, consulte o `conselheiro-juridico`.
 6. **Não apague nem sobrescreva** nada do dono sem pedir. Prefira criar arquivo novo a reescrever o que existe.
-7. **Commit e push só quando o dono pedir.** Nunca `git push --force`. Este repositório vai para o GitHub: mantenha-o privado e não grave lista de clientes com telefone, CPF ou e-mail.
+7. **Commit e push só quando o dono pedir.** Nunca `git push --force`. Este repositório vai para o GitHub: a cópia do dono fica privada, e lista de clientes com telefone, CPF ou e-mail não se grava aqui. Se o `git remote` apontar para o modelo público (`osimplifyagencia-creator/ambiente-rodriguinho`), não faça push: avise o dono para criar a cópia dele pelo **Use this template** (veja o `README.md`).
 8. **Dado de negócio é do dono:** número do mês, preço e cliente não saem deste repositório para ferramenta de terceiros sem ele saber.
 
 ---
@@ -60,7 +60,8 @@ vendas/        processo de vendas, scripts de WhatsApp, calls, propostas, funis
 conteudo/      posts, carrosséis, reels, legendas e calendário
 gestao/        plano-do-dia.md · metas.md · rotinas.md
 anotacoes/     reuniões, pessoas, ideias, decisões e planos (INDICE.md é o mapa)
-scripts/       instalar.ps1 (confere o computador e cria o .env)
+scripts/       instalar.ps1 (confere o computador e cria o .env) · empacotar-web.py (gera web/pacotes/)
+web/           uso no claude.ai: LEIA-ME, instruções do Projeto e pacotes de skills
 .claude/       skills/ (o que o Claude sabe fazer) · agents/ (o conselho) · settings.json
 .env           as chaves (fica só neste computador; modelo em .env.exemplo)
 INSTALAR.md    passo a passo de instalação para quem nunca usou

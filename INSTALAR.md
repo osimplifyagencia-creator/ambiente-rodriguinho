@@ -2,6 +2,8 @@
 
 Para quem nunca usou. Leva cerca de 40 minutos, e você só faz isso uma vez.
 
+Quer só testar, sem instalar nada? Use pelo navegador: [web/LEIA-ME.md](web/LEIA-ME.md).
+
 **Você vai precisar de:** um computador com Windows 10 ou 11, o Google Chrome, um e-mail e um cartão para o plano do Claude.
 
 **Como abrir o PowerShell** (a janela onde você cola os comandos): aperte a tecla Windows, digite `PowerShell` e aperte Enter. Para colar um comando, clique com o botão direito dentro da janela e aperte Enter. Cada bloco de comando abaixo se cola de uma vez.
@@ -15,8 +17,8 @@ Onde aparecer **"a Osimplify te manda"**, é algo que só a Osimplify entrega. P
 O GitHub guarda a pasta do seu ambiente (pense num Google Drive para esse tipo de pasta) e mantém o histórico de tudo que mudou.
 
 1. Entre em `github.com` e clique em **Sign up**. Crie a conta com o seu e-mail e confirme o e-mail.
-2. Anote o seu **nome de usuário** do GitHub e **mande para a Osimplify**.
-3. A Osimplify te manda o **link do repositório** (a sua pasta, já privada) e um convite. Aceite o convite pelo e-mail ou em `github.com/notifications`.
+2. Entre em `github.com/osimplifyagencia-creator/ambiente-rodriguinho`, clique em **Use this template** e depois em **Create a new repository**.
+3. Dê um nome (por exemplo `ambiente-minha-empresa`), marque **Private** e clique em **Create repository**. Copie o link que aparece no navegador: é o **link do seu repositório**, usado no passo 5.
 
 ## 2. Plano do Claude
 
@@ -65,7 +67,7 @@ npm install -g @anthropic-ai/claude-code
 
 ## 5. Baixar o seu ambiente
 
-No PowerShell, troque `LINK-DO-REPOSITORIO` pelo link que a Osimplify te mandou:
+No PowerShell, troque `LINK-DO-REPOSITORIO` pelo link do seu repositório (passo 1):
 
 ```powershell
 cd $HOME\Documents
